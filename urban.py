@@ -17,11 +17,7 @@ while True:
     except:
         break
 
-browser.close()
+print(apartment_name_list)
+print(address_list)
 
-book = {
-    'name': apartment_name_list,
-    'address':address_list
-}
-s = json.dumps(book)
-print(s)
+browser.close()
